@@ -1,3 +1,9 @@
+/* fonts */
+body {
+    font-family: 'Work Sans', sans-serif;
+    /* margin: 0; */
+}
+
 /* Banner-Design */
 .banner-container {
     display: flex;
@@ -57,6 +63,13 @@ button {
 
 .body-part {
     display: flex;
+}
+
+.see-button {
+    display: flex;
+    justify-content: center;
+    display: none;
+    /* display:; */
 }
 
 /* ---------------
@@ -223,5 +236,9 @@ h2 {
     .right-side {
         grid-template-columns: repeat(2, 1fr);
 
+    }
+
+    .see-button {
+        display: flex;
     }
 }
