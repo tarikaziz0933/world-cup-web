@@ -1,46 +1,146 @@
-/* banner-section */
+/* Banner-Design */
+.banner-container {
+    display: flex;
+    justify-content: center;
+}
+
 .banner {
+    background-color: black;
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+
+.banner-image img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.banner-info {
+    margin-right: 10px;
+    width: 50%;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+button {
+    height: 3em;
+    width: 10em;
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/*--------------------
+     Body-Part
+ ---------------- */
+.body-part {
     display: flex;
 }
 
-.text-align-left {
-    padding-left: 10%;
-}
+/*------------- 
+Left Side
+------------------ */
 
-.link-button {
-    margin-left: 10%;
-    padding: 5%;
-    background-color: crimson;
-    border: none;
-    border-radius: 5px;
-}
-
-.banner-design {
-    background-color: black;
-    border-radius: 5PX;
-    margin: auto;
-    width: 50%;
-    color: azure;
-}
-
-/* lefe-side */
 .left-side {
-    background-color: black;
-    width: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 200px;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-
-.side-button-group {
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    margin-left: 10%;
+    width: 250px;
+    /* border: 2px solid red; */
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: black;
+    border-radius: 10px;
 }
 
 .side-button {
-    padding: 5%;
-    margin: 10%;
-    width: 150px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    color: black;
+    font-weight: 700;
+}
+
+/*---------------
+ Right Side
+ ----------------- */
+/* #box-right {
+    flex-grow: 1;
+} */
+
+.right-side {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.right-blog {
+    margin: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.right-blog img {
+    width: 100%;
+}
+
+.display-info {
+    display: flex;
+    column-gap: 30px;
+}
+
+/* Footer-Section */
+h2 {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.horigontal-rule {
+    width: 80%;
+}
+
+.footer {
+    background-color: black;
+    height: 400px;
+}
+
+/* .footer-item {
+    height: 40px;
+    width: 100px;
+    border: 1px solid wheat;
+} */
+
+
+.footer-elements {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    margin: 20px 0;
+}
+
+.footer-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    column-gap: 20px;
 }
