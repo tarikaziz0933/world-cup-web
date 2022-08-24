@@ -50,7 +50,7 @@ button {
 /*--------------------
      Body-Part
  ---------------- */
-a {
+.nav {
     text-decoration: none;
     color: black;
 }
@@ -67,7 +67,7 @@ Match-Page-Body
     font-size: 20px;
 }
 
-h4 {
+h3 {
     font-size: 30px;
 }
 
