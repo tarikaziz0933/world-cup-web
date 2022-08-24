@@ -50,8 +50,30 @@ button {
 /*--------------------
      Body-Part
  ---------------- */
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .body-part {
     display: flex;
+}
+
+/* ---------------
+Match-Page-Body
+--------------------- */
+.match-time {
+    color: lightgray;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.team-flag {
+    display: flex;
+    justify-content: center;
 }
 
 /*------------- 
@@ -90,7 +112,8 @@ Left Side
     grid-template-columns: repeat(3, 1fr);
 }
 
-.right-blog {
+.right-blog,
+.match-blog {
     margin: 10px;
     border: 1px solid lightgray;
     border-radius: 10px;
